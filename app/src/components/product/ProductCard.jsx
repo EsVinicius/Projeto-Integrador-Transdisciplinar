@@ -33,7 +33,7 @@ const ProductCard = ({ product }) => {
             <img  
               className="object-cover w-full h-full transition-transform duration-300 hover:scale-110" 
               alt={product.name}
-             src={`./src/assets/products/${product.imageName}.jpg`} />
+             src={`https://raw.githubusercontent.com/EsVinicius/Projeto-Integrador-Transdisciplinar/81ed848dade8397223ac67ca2078a35f28079b4d/app/src/assets/products/${product.imageName}.jpg`} /> {/*  */}
           </div>
           <Button variant="ghost" size="icon" className="absolute top-2 right-2 bg-white/70 hover:bg-white rounded-full text-pink-500 hover:text-pink-600">
             <Heart size={20} />
