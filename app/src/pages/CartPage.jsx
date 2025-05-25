@@ -19,7 +19,7 @@ const CartItem = ({ item, updateQuantity, removeFromCart }) => {
     >
       <div className="flex items-center space-x-4">
         <div className="w-20 h-20 rounded-md overflow-hidden bg-pink-100">
-          <img  src={`./src/assets/products/${item.imageName}.jpg`} alt={item.name} className="w-full h-full object-cover" />
+          <img  src={`https://raw.githubusercontent.com/EsVinicius/Projeto-Integrador-Transdisciplinar/81ed848dade8397223ac67ca2078a35f28079b4d/app/src/assets/products/${item.imageName}.jpg`} alt={item.name} className="w-full h-full object-cover" />
         </div>
         <div>
           <h3 className="font-semibold text-pink-700">{item.name}</h3>

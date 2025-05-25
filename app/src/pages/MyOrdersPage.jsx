@@ -124,7 +124,7 @@ const MyOrdersPage = () => {
                       <li key={item.id} className="flex justify-between items-center text-sm text-gray-700 border-b border-pink-100 py-2 last:border-b-0">
                         <div className="flex items-center">
                           <div className="w-12 h-12 rounded-md overflow-hidden mr-3 bg-pink-100">
-                            <img  src={`./src/assets/products/${item.imageName}.jpg`} alt={item.name} className="w-full h-full object-cover" />
+                            <img  src={`https://raw.githubusercontent.com/EsVinicius/Projeto-Integrador-Transdisciplinar/81ed848dade8397223ac67ca2078a35f28079b4d/app/src/assets/products/${item.imageName}.jpg`} alt={item.name} className="w-full h-full object-cover" />
                           </div>
                           <span>{item.name} (x{item.quantity})</span>
                         </div>
